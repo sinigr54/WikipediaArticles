@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WikipediaArticles</string>
+
+    <!--Errors-->
+    <string name="json_parsing_error">Ошибка парсинга</string>
+
+    <!--Articles list-->
+    <plurals name="images_count">
+        <item quantity="one">%1$d изображение</item>
+        <item quantity="few">%1$d изображения</item>
+        <item quantity="many">%1$d изображений</item>
+        <item quantity="other">%1$d изображения</item>
+    </plurals>
+
+</resources>
