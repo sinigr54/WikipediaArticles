@@ -7,13 +7,13 @@ import com.sinigr.wikipediaarticles.modules.main.articles_list.view.adapter.dele
 
 class ArticlesAdapter(activity: Activity) : ListDelegationAdapter<List<ArticleEntity>>() {
 
-    init {
-        delegatesManager.addDelegate(ArticleAdapterDelegate(activity))
-    }
+  init {
+    delegatesManager.addDelegate(ArticleAdapterDelegate(activity))
+  }
 
-    fun setData(articles: List<ArticleEntity>) {
-        setItems(articles)
-        notifyDataSetChanged()
-    }
+  fun setData(articles: List<ArticleEntity>) {
+    setItems(articles)
+    notifyDataSetChanged()
+  }
 
 }

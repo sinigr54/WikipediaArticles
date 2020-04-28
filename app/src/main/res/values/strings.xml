@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">WikipediaArticles</string>
 
-    <!--Errors-->
-    <string name="json_parsing_error">Parsing error</string>
+    <string name="shared_preferences_file_key">com.sinigr.wikipediaarticles.PREFERENCE_FILE_KEY</string>
 
     <!--Articles list-->
     <plurals name="images_count">

@@ -1,7 +1,12 @@
 package com.sinigr.wikipediaarticles.network.responses
 
-import com.google.gson.JsonObject
+import com.sinigr.wikipediaarticles.entity.ArticleEntity
 
-class QueryResponse(
-    val query: JsonObject?
-)
+data class ArticlesResponse(
+  val articles: List<ArticleEntity> = emptyList()
+) {
+
+  companion object {
+    val EMPTY = ArticlesResponse()
+  }
+}
